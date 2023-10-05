@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-ul {
+.header ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -16,23 +16,16 @@ a {
     color: #34495e;
     text-decoration: none;
 }
-section {
-    padding: 10px 15px;
-    margin: 10px;
-    display: block;
-    /*
-      display: block - displays an element as a block element. It starts on a new line, and takes up the whole width
-   */
-}
 .logo {
-    margin: 0;
-    font-size: 1.1em;
+    margin: 7px;
+    max-width: 100%;
+    height: 100%;
 }
 .header {
     position: fixed;
     width: 100%;
     padding-top: .5em;
-    padding-bottom: .5em;
+    padding-bottom: .1em;
     border: 1px solid #646174;
     background-color: #a2ccea;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
@@ -57,50 +50,60 @@ section {
     color: #092747;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 5px) {
     .header,
     .nav {
         display: flex;
     }
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-@media (min-width: 800px) {
-    .header,
-    .nav {
-        display: flex;
-    }
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-@media (min-width: 1000px) {
     .header {
         flex-direction: row;
         justify-content: space-between;
     }
 }
-.post {
-    margin: 20px auto;
-    width: 100%;
-    border: 1px solid #746161;
-    background-color: #ddd;
-    display: table-column;
-    gap: 10px 10px;
+.info{
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
 }
-
-.post p {
-    background-color: rgb(177, 164, 164);
-    color: white;
-    padding: 20px;
-    font-weight: bold;
+.avatar {
+    text-align: left;
+    max-width: 100%;
+    height: 100%;
+}
+.date {
+    text-align: right;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.image {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
-@media (max-width: 500px) {
-    .post{
-        display: list-item;
-    }
+.post {
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background: lightcyan;
+    border: 4px solid teal;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.content {
+    font-size: 35px;
+    text-align: center;
+}
+.button {
+    text-align: left;
+    max-width: 100%;
+    height: 100%;
+}
+footer p {
+    text-align: center;
+    font-family: "Lucida Calligraphy", serif;
 }

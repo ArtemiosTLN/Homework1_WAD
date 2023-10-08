@@ -59,6 +59,7 @@ a {
         flex-direction: row;
         justify-content: space-between;
     }
+
 }
 .info{
     display: grid;
@@ -84,15 +85,17 @@ a {
     text-align: center;
 }
 .post {
+    display: block;
     padding-top: 10px;
     padding-bottom: 1px;
     padding-right: 50px;
     padding-left: 50px;
     background: lightcyan;
     border: 4px solid teal;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 40px;
+    max-width: 700px;
 }
 .content {
     font-size: 35px;

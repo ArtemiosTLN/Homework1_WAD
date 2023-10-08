@@ -108,7 +108,6 @@ a {
 footer p {
     text-align: center;
     font-family: "Lucida Calligraphy", serif;
-<<<<<<< HEAD
 }
 .addpost {
     display: flex;
@@ -126,10 +125,6 @@ footer p {
     display: flex;
     margin: 20px;
 }
-p.textarea {
-    
-    
-}
 .form {
     display: flex;
     margin: 20px;
@@ -137,6 +132,19 @@ p.textarea {
 .create_post {
     width: 100px;
 }
-=======
+.login-inputs {
+    text-align: center;
 }
->>>>>>> 463a0780abc16e1f9a87850a314664b4fe846f82
+.post-creation{
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    background-color: lightcyan;
+    border: 4px solid teal;
+    padding: 20px;
+    max-width: 400px;
+    align-items: center;
+    border-radius: 40px;
+}

@@ -126,10 +126,13 @@ footer p {
     display: flex;
     margin: 20px;
 }
+p.textarea {
+    
+    
+}
 .form {
     display: flex;
     margin: 20px;
-    min-width: 350px;
 }
 .create_post {
     width: 100px;

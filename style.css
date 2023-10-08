@@ -59,7 +59,6 @@ a {
         flex-direction: row;
         justify-content: space-between;
     }
-
 }
 .info{
     display: grid;
@@ -109,6 +108,7 @@ a {
 footer p {
     text-align: center;
     font-family: "Lucida Calligraphy", serif;
+<<<<<<< HEAD
 }
 .addpost {
     display: flex;
@@ -137,3 +137,6 @@ p.textarea {
 .create_post {
     width: 100px;
 }
+=======
+}
+>>>>>>> 463a0780abc16e1f9a87850a314664b4fe846f82

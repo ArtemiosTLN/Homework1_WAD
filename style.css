@@ -110,3 +110,27 @@ footer p {
     text-align: center;
     font-family: "Lucida Calligraphy", serif;
 }
+.addpost {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    background-color: lightcyan;
+    border: 4px solid teal;
+    padding: 20px;
+    max-width: 400px;
+    align-items: center;
+    border-radius: 40px;
+}
+.textarea {
+    display: flex;
+    margin: 20px;
+}
+.form {
+    display: flex;
+    margin: 20px;
+    min-width: 350px;
+}
+.create_post {
+    width: 100px;
+}

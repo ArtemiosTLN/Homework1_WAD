@@ -148,3 +148,7 @@ footer p {
     align-items: center;
     border-radius: 40px;
 }
+
+textarea {
+    resize: none;
+}

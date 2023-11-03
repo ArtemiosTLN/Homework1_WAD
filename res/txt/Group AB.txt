@@ -1,0 +1,3 @@
+Team number: 36th.
+Authors: Artjom Šiškov, Artemi Sotskov, Markus Hausenberg.
+Link to the repository: https://github.com/ArtemiosTLN/Homework1_WAD

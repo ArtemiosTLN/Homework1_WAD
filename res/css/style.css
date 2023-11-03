@@ -65,11 +65,13 @@ a {
     align-items: flex-start;
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
-}
+}F
 .avatar {
-    text-align: left;
-    max-width: 100%;
-    height: 100%;
+     width: 100px !important;
+     height: 64.51px !important;
+     text-align: left;
+     max-width: 100%;
+     height: 100%;
 }
 .date {
     text-align: right;
@@ -101,6 +103,8 @@ a {
     text-align: center;
 }
 .button {
+    width: 100px;
+    height: 100px;
     text-align: left;
     max-width: 100%;
     height: 100%;

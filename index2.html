@@ -5,26 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <script type="text/javascript" src="src/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <link rel="stylesheet" href="res/css/style.css">
 </head>
 <body>
-<header class="header">
-    <ul class="nav">
-        <li><a href="index2.html">Home</a></li>
-        <li><a href="add_post.html">Add Post</a></li>
-    </ul>
-    <div class="dropdown" dropdown-button>
-    <a class="logo" href="" onclick="return false"><img src="res/png/My_picture.png" width="100" height="64.51" alt="My picture"></a>
-        <div class="dropdown-content">
-            <p>John Doe</p>
-            <p>john.doe@ut.ee</p>
-            <p>Logout</p>
-        </div>
+    <div id = "header_component">
+        <headercomponent></headercomponent>
     </div>
-</header>
-
+    <script type="text/javascript" src="src/components/vue_header.js"></script>
 <br><br><br><br><br>
 
-
+<div id = "footer_component">
+    <footercomponent></footercomponent>
+</div>
+<script type="text/javascript" src="src/components/vue_footer.js"></script>
 </body>
 </html>

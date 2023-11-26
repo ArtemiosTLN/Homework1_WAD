@@ -15,7 +15,6 @@ window.onload = function() {
                 date.className = 'date';
                 date.innerHTML = element.date;
                 let author = document.createElement("DIV");
-                author.className = 'author';
                 author.innerHTML = element.author;
                 let imageAvatar = document.createElement("IMG");
                 imageAvatar.src = 'res/png/My_picture.png';

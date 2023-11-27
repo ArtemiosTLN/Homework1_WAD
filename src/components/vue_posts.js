@@ -1,7 +1,8 @@
 import Vue from 'vue';
-import {store} from "../store/store";
+import {store} from "../store/store.js";
+import LikeButton from "../components/vue_like_button.js";
 
-Vue.component('posts', {
+Vue.component('postscomponent', {
     template: `
     <div class="post" v-for="post in posts" :key="post.id">
     <div class="info">
@@ -10,11 +11,14 @@ Vue.component('posts', {
     <div>{{ post.author }}</div>
 </div>
 <div class="content">{{ post.content }}</div>
+      <div>
+      <Likebuttoncomponent></Likebuttoncomponent>
+      </div>
 </div>
     `,
     computed: {
         posts() {
-          return this.$store.getters.getPosts
+          return store.getters.getPosts
         },
     },
 });

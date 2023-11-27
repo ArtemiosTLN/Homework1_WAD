@@ -17,4 +17,8 @@ Vue.component('likebuttoncomponent', {
          border: none;
         }
     `
-})
+});
+
+export default {
+    name: 'LikeButton',
+}

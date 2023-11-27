@@ -1,4 +1,3 @@
-import Vue from 'vue';
 import {store} from "../store/store.js";
 import LikeButton from "../components/vue_like_button.js";
 
